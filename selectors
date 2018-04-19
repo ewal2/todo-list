@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My title</title>
+</head>
+<body>
+  <h1>I am an h1!</h1>
+  <p id="first" class="special">Hello</p>
+  <p class="special">Goodbye</p>
+  <p>Hi Again</p>
+  <p id="last">Goodbye Again</p>
+</body>
+</html>
+
+h1
+1) var h1 = document.querySelector("h1");
+2) var great = document.geElementByTagName("h1");
+
+
+<p id="ok" class="cool"> Great </p> 
+we can select:
+1) var great = document.geElementById("ok");
+2) var great = document.querySelector("h1 + p");
+3) var great = document.getElementByClassName("cool");
+4) var great = document.geElementByTagNameAll("p")[0];
+
+<p id="first" class="special">Hello</p>
+we can select:
+1) var great = document.geElementById("ok");
+2) var hello = document.querySelector("#ok");
+3) var great = document.getElementByClassName("cool");
+4) var great = document.geElementByTagName("p");
+
+
+<p class="special">Goodbye</p>
+we can select:
+1) var Goodbye = document.querySelectorAll(".special")[1];
+2) var Goodbye = document.getElementByClassName("special")[1];
+3) var Goodbye = document.geElementByTagName("p")[1];
+4) var Goodbye = document.querySelectorAll("p")[1];
