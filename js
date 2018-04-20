@@ -46,3 +46,4 @@ function deleteTodo(){
 }, 500);
 
 // not working in jsbin and in plunker I have this error message in console.log: "Failed to load resource: the server responded with a status of 500 ()"
+// I have called this function also with 1000 ms and 2000 ms and I got exactly the same result. 
