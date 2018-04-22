@@ -1,11 +1,3 @@
-.winner{
-color: green;
-}
-
-
-
-
-
 var p1Button = document.querySelector("#p1");
 var p2Button = document.getElementById("p2");
 var resetButton = document.getElementById("reset");
