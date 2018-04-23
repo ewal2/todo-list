@@ -9,6 +9,7 @@ var input = prompt("What would you like to do?");
 
 
 while(input !== "quit"){
+// noprotect
 if(input === "list"){
 listTodos();
 } else if(input === "new"){
@@ -45,4 +46,3 @@ function deleteTodo(){
 
 }, 500);
 
-// not working in jsbin and in plunker I have this error message in console.log: "Failed to load resource: the server responded with a status of 500 ()"
